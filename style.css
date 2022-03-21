@@ -1,5 +1,8 @@
 * {
     box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    font-family: 'Raleway', sans-serif;
+    color: white;
   }
 body {
     background: linear-gradient(180deg, #615dad, #ffc8da); 
@@ -14,14 +17,25 @@ body {
     
 }
 
+h1 {
+    font-family: 'Lobster', cursive;
+}
 .popisek {
     background-color: #283e50;
 }
 
 .tlacitka__pravidla {
-
+    background-color: #1fcca4;
+}
+.tlacitka__pravidla:hover {
+    background-color: #1cbb96;
 }
 
 .tlacitka__zacithrat {
-    
+    background-color: #0197f6;
+
+}
+
+.tlacitka__zacithrat:hover {
+    background-color: #0090e9;
 }
