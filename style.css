@@ -1,11 +1,27 @@
+* {
+    box-sizing: border-box;
+  }
 body {
     background: linear-gradient(180deg, #615dad, #ffc8da); 
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-    
+    background-attachment: fixed;  
+    display: flex;  
+    flex-direction: column;
+}
+
+.uvodnijpg {
+    border-radius: 50px 50px 0 0;
     
 }
+
 .popisek {
+    background-color: #283e50;
+}
+
+.tlacitka__pravidla {
+
+}
+
+.tlacitka__zacithrat {
     
 }
