@@ -8,7 +8,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
   }
 
 body {
@@ -35,20 +34,21 @@ body {
 /*text*/
 h1 {
     font-family: 'Lobster', cursive;
+    /* nejsem jistá, jestli je nutné nastavovat velikost, klidně bych nechala přednastavenou h1*/
     font-size: xx-large;
 }
 .popisek {
     background-color: #283e50;
     padding: 0 3% 0 3%;
-    
 }
+
+
 
 /*tlačítka*/
 
 a {
     text-decoration: none
 }
-
 .pravidla {
     background-color: #1fcca4;
     padding: 5% 0 5% 0;
@@ -56,21 +56,16 @@ a {
 .pravidla:hover {
     background-color: #1cbb96;
 }
-
 .zacithrat {
     background-color: #0197f6;
     padding: 5% 0 5% 0;
+    /* nevím jestli bylo cílem vytvořit, ale na obrázku zadání je */
     border-top: 1px solid #333;
 }
 .zacithrat:hover {
     background-color: #0090e9;
 }
 
-a {
-    text-decoration: none
-   
-}
-   
     
     
    
