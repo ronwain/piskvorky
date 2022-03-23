@@ -10,6 +10,10 @@
     justify-content: center;
   }
 
+title {
+      display: none; 
+  }
+
 body {
     background: linear-gradient(180deg, #615dad, #ffc8da); 
     background-repeat: no-repeat;
