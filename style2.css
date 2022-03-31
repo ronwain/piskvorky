@@ -1,0 +1,37 @@
+.symbol {
+    width: 15px;
+    height: 15px;
+    float: left;
+    float: right;
+}
+
+li {
+    
+   
+    width: calc(100% / 3);
+    height: 120px;
+    
+  }
+  
+  .pravidla-body {
+  
+    background-color: #283e50;
+    
+  }
+  .instrukce {
+      
+  }
+
+  .instrukce-sekce {
+ 
+  }
+
+  .instukce-obrazek {
+    width: 200px;
+    height: 200px;
+   
+  }
+
+  * {
+      border: #0090e9 solid 5px;
+  }

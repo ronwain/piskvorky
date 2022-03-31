@@ -11,7 +11,7 @@
   }
 
 title {
-      display: none; 
+      display: none;
   }
 
 body {
@@ -45,6 +45,7 @@ h1 {
 .popisek {
     background-color: #283e50;
     padding: 0 3% 0 3%;
+  
 }
 
 
@@ -86,5 +87,47 @@ a {
    
 
     
-    
+/* druhý úkol */
 
+.symbol {
+    width: 15px;
+    height: 15px;
+    float: left;
+    float: right;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    width: calc(100% / 3);
+    height: 120px;
+    text-align: center;
+  }
+  
+  .pravidla-body {
+    box-sizing: border-box;
+    display: flex;
+    background-color: #283e50;
+    align-items: center;
+  }
+  .instrukce {
+      box-sizing: border-box;
+      display:flex;
+      align-items: center;
+  }
+
+  .instrukce-sekce {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+  }
+
+  .instukce-obrazek {
+    width: 200px;
+    height: 200px;
+   
+  }
+
+  * {
+      border: #0090e9 solid 5px;
+  }
