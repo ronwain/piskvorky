@@ -22,7 +22,7 @@ body {
     display: flex;  
     flex-direction: column;
     justify-content: center;
-    margin: 150px 200px 200px 150px;
+    margin: 150px 200px 200px 150px; 
 }
 
 
@@ -30,6 +30,7 @@ body {
 .obrazek {
     justify-content: center;
 }
+
 .uvodnijpg {
     border-radius: 15px 15px 0 0;
 }
@@ -70,11 +71,20 @@ a {
     background-color: #0090e9;
 }
 
-    
-    
+ .pravidla, .zacithrat {
+    box-sizing: border-box;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+} 
+
+@media (max-width: 600px)    {
+    body {
+    margin: 50px ;}
+}
    
 
     
     
 
-}
