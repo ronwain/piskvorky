@@ -1,69 +1,59 @@
-
 * {
-    font-family: 'Lobster', cursive;
-    font-family: 'Raleway', sans-serif;
-    color: white;
+  box-sizing: border-box;
+  font-family: 'Lobster', cursive;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+
 }
 
 body {
-background: linear-gradient(180deg, #615dad, #ffc8da); 
-background-repeat: no-repeat;
-background-attachment: fixed; 
-box-sizing: border-box;
-display: flex;
-justify-content: space-around;
-align-items: center;
-color: antiquewhite;
+  background: linear-gradient(180deg, #615dad, #ffc8da); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  box-sizing: border-box;
+  display: flex; 
+  justify-content: center; 
+  
+  margin: 5% 10% 10% 5%; 
+}
+
+.pravidla--body {
+  background-color: #283e50;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+h1 {
 text-align: center;
-margin: 30px;
-border-radius: 30%;
-
-
 }
+ol{
+  margin: 5%;
+}
+li {
+  margin: 5%;
+}
+
 .symbol {
-    width: 15px;
-    height: 15px;
-    float: left;
-    float: right;
+  width: 5%;
+  height: 5%;
 }
-
-  .pravidla-body {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction:  column;
-    justify-content: space-around;
-     background-color: #283e50;
-     padding: 0 3% 0 3%;
-     border-radius: 10px;
-    
-    
-  }
-
-  ol { 
-    box-sizing:border-box;
-    display: flex;
-    flex-direction: column;
-    padding:  0 10% 0 15%;
-   margin: 0px;
-  }
-  li{
-      padding: 4%;
-      text-align: left; 
-  }
-  .instrukce {
-      
-  }
-
-  .instrukce-sekce {
- 
-  }
-
-  .instukce-obrazek {
-    width: 250px;
-    height: 250px;
-   
-  }
-/*
-  * {
-      border: #0090e9 solid 5px;
-  }
+.isntrukce {
+  box-sizing: border-box;
+  display: flex; 
+  justify-content: center; 
+}
+.instrukce--sekce {
+  box-sizing: border-box;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  margin: 15% 2% 5% 2%;
+  
+}
+ p  {
+ align-items: center;
+ padding: 0 10% 0 10%;
+}
+img {
+  width: 80%;
+}
