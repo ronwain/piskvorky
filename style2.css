@@ -11,16 +11,15 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;  
   box-sizing: border-box;
-  display: flex; 
-  justify-content: center; 
-  
   margin: 5% 10% 10% 5%; 
+  min-height: 100vh;
 }
 
 .pravidla--body {
   background-color: #283e50;
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
+  display: block; 
 }
 h1 {
 text-align: center;
@@ -36,24 +35,72 @@ li {
   width: 5%;
   height: 5%;
 }
-.isntrukce {
+.instrukce {
   box-sizing: border-box;
   display: flex; 
-  justify-content: center; 
+  flex-direction: row;
+  justify-content: flex-start; 
+  flex-wrap: wrap;
+  margin: 3%;
 }
 .instrukce--sekce {
   box-sizing: border-box;
-  display: flex; 
-  flex-direction: column;
-  justify-content: center; 
-  align-items: center;
-  margin: 15% 2% 5% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15% 2% 5% 2%;
   
 }
- p  {
- align-items: center;
- padding: 0 10% 0 10%;
+figure 
+{
+  margin-bottom: 30px;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
 }
+
+figcaption
+{
+  align-content: center;
+   
+}
+
 img {
-  width: 80%;
+  width: 100%;
 }
+
+
+.uvodni {
+  background-color: #1fcca4;
+  padding: 5% 0 5% 0;
+}
+.uvodni:hover {
+  background-color: #1cbb96;
+}
+.zacithrat {
+  background-color: #0197f6;
+  padding: 5% 0 5% 0;
+ 
+}
+.zacithrat:hover {
+  background-color: #0090e9;
+}
+
+.tlacitka--button {
+  width: 100%;
+}
+
+@media (min-width: 500px) {
+  .isntrukce {
+     
+  
+}
+.instrukce--sekce {
+  max-width: 45% ;
+
+
+}
+  }
