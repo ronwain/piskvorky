@@ -72,29 +72,27 @@ figure {
   margin-inline-end: 40px;
 }
 
-figcaption
-{
+figcaption {
   text-align: center;
-   
 }
 
 img {
   width: 100%;
 }
 
-
 .uvodni {
   background-color: #1fcca4;
   padding: 5% 0 5% 0;
 }
+
 .uvodni:hover {
   background-color: #1cbb96;
 }
 .zacithrat {
   background-color: #0197f6;
   padding: 5% 0 5% 0;
- 
 }
+
 .zacithrat:hover {
   background-color: #0090e9;
 }
@@ -102,6 +100,7 @@ img {
 .tlacitka--button {
   width: 100%;
 }
+
 /* obrazovka*/
 @media (min-width: 500px) {
 .instrukce--sekce {
@@ -128,7 +127,5 @@ margin: 100px;
   *  {
     font-size: xx-large
   }
-  
- 
 }
 
