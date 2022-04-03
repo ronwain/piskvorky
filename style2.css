@@ -1,9 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lobster', cursive;
-  font-family: 'Raleway', sans-serif;
   color: white;
-
 }
 
 body {
@@ -24,12 +21,14 @@ body {
   display: block; 
   font-family: 'Raleway', sans-serif;
 }
+
 h1 {
 text-align: center;
 padding-top: 10%;
 font-family: 'Lobster', cursive;
 font-size: 2em;
 }
+
 ol{
   margin: 5%;
   padding-right: 5%;
@@ -45,6 +44,7 @@ li {
   filter: invert(100%);
 
 }
+
 .instrukce {
   box-sizing: border-box;
   display: flex; 
@@ -53,23 +53,23 @@ li {
   flex-wrap: wrap;
   margin: 3%;
 }
+
 .instrukce--sekce {
   box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 15% 2% 5% 2%;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15% 2% 5% 2%;
 }
-figure 
-{
+
+figure {
   margin-bottom: 30px;
   display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
 }
 
 figcaption
