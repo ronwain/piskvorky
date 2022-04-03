@@ -11,9 +11,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;  
   box-sizing: border-box;
-  margin: 5% 10% 10% 5%; 
+  margin: 15% 10% 10% 10%; 
   min-height: 100vh;
   font-family: 'Lobster', cursive;
+  font-size: small;
 }
 
 .pravidla--body {
@@ -27,6 +28,7 @@ h1 {
 text-align: center;
 padding-top: 10%;
 font-family: 'Lobster', cursive;
+font-size: 2em;
 }
 ol{
   margin: 5%;
@@ -100,23 +102,33 @@ img {
 .tlacitka--button {
   width: 100%;
 }
-
+/* obrazovka*/
 @media (min-width: 500px) {
-  .isntrukce {
-     
-  
-}
 .instrukce--sekce {
   max-width: 45% ;
-
-
 }
-  
-@media (min-width: 900px) {
-
 }
-@media (min-width:  1536px) {
- li {
-    margin: 5%;
+ /* obrazovka large*/
+@media (min-width: 992px) {
+.pravidla--body {
+margin: 100px;
+}
+* {
+  font-size: x-large;
+}
+}
+
+/* obrazovka extra extra large*/
+@media (min-width:  1400px) {
+.pravidla--body {
+    margin-left: 200px;
+    margin-right: 200px;
+    ;
   }
+  *  {
+    font-size: xx-large
+  }
+  
+ 
 }
+
