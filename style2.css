@@ -1,3 +1,4 @@
+/*styl pro vše*/
 * {
   box-sizing: border-box;
   color: white;
@@ -14,6 +15,21 @@ body {
   font-size: small;
 }
 
+h1 {
+  text-align: center;
+  padding-top: 10%;
+  font-family: 'Lobster', cursive;
+  font-size: 2em;
+  }
+
+a {
+  text-decoration: none
+}
+img {
+  width: 100%;
+}
+/*všichni*/
+
 .pravidla--body {
   background-color: #283e50;
   border-top-right-radius: 30px;
@@ -22,11 +38,102 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-h1 {
-text-align: center;
-padding-top: 10%;
-font-family: 'Lobster', cursive;
-font-size: 2em;
+/*obrázek - čtyřlístky*/
+.obrazek {
+  display: flex;
+  width: 100%;
+ }
+ .uvodnijpg {
+   border-radius: 15px 15px 0 0;
+ }
+
+.tlacitka {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+.popisek {
+  background-color: #283e50;
+  padding: 0 3% 0 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 300;
+}
+p {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+  
+.zacithrat {
+  align-self: stretch;
+}
+/*obrázek*/
+.obrazek {
+ display: flex;
+ width: 100%;
+}
+
+.uvodnijpg {
+  border-radius: 15px 15px 0 0;
+}
+
+
+/*text*/
+
+.popisek {
+  background-color: #283e50;
+  padding: 0 3% 0 3%;
+
+}
+
+
+
+/*tlačítka*/
+
+
+.pravidla1 {
+  background-color: #1fcca4;
+  padding: 5% 0 5% 0;
+}
+.pravidla1:hover {
+  background-color: #1cbb96;
+}
+.zacithrat {
+  background-color: #0197f6;
+  padding: 5% 0 5% 0;
+  /* nevím jestli bylo cílem vytvořit, ale na obrázku zadání je */
+  border-top: 1px solid #333;
+}
+.zacithrat:hover {
+  background-color: #0090e9;
+}
+
+.pravidla, .zacithrat {
+  box-sizing: border-box;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+} 
+
+
+  /*druhý úkol*/
+/*obrázek*/
+.obrazek {
+  justify-content: center;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.uvodnijpg {
+  border-radius: 15px 15px 0 0;
+
 }
 
 ol{
@@ -60,11 +167,11 @@ li {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin: 15% 2% 5% 2%;
+  margin: 2% 2% 5% 2%;
 }
 
 figure {
-  margin-bottom: 30px;
+ 
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -100,7 +207,9 @@ img {
 .tlacitka--button {
   width: 100%;
 }
-
+figcaption {
+  font-style: italic;
+}
 /* obrazovka*/
 @media (min-width: 500px) {
 .instrukce--sekce {
