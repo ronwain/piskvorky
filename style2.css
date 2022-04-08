@@ -47,14 +47,7 @@ img {
    border-radius: 15px 15px 0 0;
  }
 
-.tlacitka {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: flex-start;
-  align-items: center;
-}
+/*popisek 4 lístky*/
 .popisek {
   background-color: #283e50;
   padding: 0 3% 0 3%;
@@ -65,76 +58,45 @@ img {
   font-weight: 300;
 }
 p {
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin: 7%;
 }
 
-  
-.zacithrat {
-  align-self: stretch;
-}
-/*obrázek*/
-.obrazek {
- display: flex;
- width: 100%;
-}
+/*tlacitka*/
 
-.uvodnijpg {
-  border-radius: 15px 15px 0 0;
-}
+.tlacitka {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: stretch;
+}  
 
-
-/*text*/
-
-.popisek {
-  background-color: #283e50;
-  padding: 0 3% 0 3%;
-
-}
-
-
-
-/*tlačítka*/
-
-
-.pravidla1 {
+.uvodni {
   background-color: #1fcca4;
   padding: 5% 0 5% 0;
 }
-.pravidla1:hover {
+
+.uvodni:hover {
   background-color: #1cbb96;
 }
 .zacithrat {
   background-color: #0197f6;
   padding: 5% 0 5% 0;
-  /* nevím jestli bylo cílem vytvořit, ale na obrázku zadání je */
-  border-top: 1px solid #333;
 }
+
 .zacithrat:hover {
   background-color: #0090e9;
 }
 
-.pravidla, .zacithrat {
-  box-sizing: border-box;
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center;
-  align-items: center;
-} 
+.tlacitka--button {
+  width: 100%;
+}
+
 
 
   /*druhý úkol*/
-/*obrázek*/
-.obrazek {
-  justify-content: center;
-  max-height: 100%;
-  max-width: 100%;
-}
 
-.uvodnijpg {
-  border-radius: 15px 15px 0 0;
-
-}
 
 ol{
   margin: 5%;
@@ -187,44 +149,6 @@ img {
   width: 100%;
 }
 
-.uvodni {
-  background-color: #1fcca4;
-  padding: 5% 0 5% 0;
-}
-
-.uvodni:hover {
-  background-color: #1cbb96;
-}
-.zacithrat {
-  background-color: #0197f6;
-  padding: 5% 0 5% 0;
-}
-
-.zacithrat:hover {
-  background-color: #0090e9;
-}
-
-.tlacitka--button {
-  width: 100%;
-}
-figcaption {
-  font-style: italic;
-}
-/* obrazovka*/
-@media (min-width: 500px) {
-.instrukce--sekce {
-  max-width: 45% ;
-}
-}
- /* obrazovka large*/
-@media (min-width: 992px) {
-.pravidla--body {
-margin: 100px;
-}
-* {
-  font-size: x-large;
-}
-}
 
 /* obrazovka extra extra large*/
 @media (min-width:  1400px) {
