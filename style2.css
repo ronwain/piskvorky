@@ -54,9 +54,9 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 50px;
-  font-weight: 300;
+  font-size:large;
 }
+
 p {
   margin: 7%;
 }
@@ -143,6 +143,7 @@ figure {
 
 figcaption {
   text-align: center;
+  font-style: italic;
 }
 
 img {
@@ -151,14 +152,19 @@ img {
 
 
 /* obrazovka extra extra large*/
-@media (min-width:  1400px) {
-.pravidla--body {
-    margin-left: 200px;
-    margin-right: 200px;
-    ;
+/* obrazovka*/
+@media (min-width: 500px) {
+  .instrukce--sekce {
+    max-width: 45% ;
   }
-  *  {
-    font-size: xx-large
   }
-}
+   /* obrazovka large*/
+  @media (min-width: 992px) {
+  .pravidla--body {
+  margin: 100px;
+  }
+  * {
+    font-size: x-large;
+  }
+  }
 
