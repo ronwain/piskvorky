@@ -193,11 +193,12 @@ img {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  max-width: 80vmin;
  
 }
  
 .hra--menu {
-  margin: 0%;
+  margin: 10%;
   display: flex;
   justify-content: space-between;
 }
@@ -222,11 +223,17 @@ a {
 }
 
 #pole {
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: rgba(243, 236, 236, 0.441);
 }
+
+#pole:focus {
+  color: rgb(137, 9, 9);
+}
+
 .wrapper {
-  display: flex;
+  display: block;
   flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
