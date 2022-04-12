@@ -93,7 +93,26 @@ p {
   width: 100%;
 }
 
+#ikony--home {
+  background-color: #1fcca4;
+  padding: 1rem;
+  border-radius: 15px;
+  margin: 0, 1rem, 0, 1rem;
+}
 
+#ikony--home:hover {
+  background-color: #1cbb96;
+}
+#ikony--restart {
+  background-color: #0197f6;
+  padding: 1rem;
+  border-radius: 15px;
+  margin: 0, 1rem, 0, 1rem;
+}
+
+#ikony--restart:hover {
+  background-color: #0090e9;
+}
 
   /*druhý úkol*/
 
@@ -168,3 +187,36 @@ img {
   }
   }
 
+  /*ukol 3*/
+ 
+.herniKarta {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ 
+}
+ 
+.hra--menu {
+  margin: 0%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hra--menu__hraje {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.hra--menu__ikony {
+  display: flex;
+}
+
+#kolecko {
+  width: 1rem;
+  height: 1rem;
+}
+a {
+  margin:1rem;
+}
