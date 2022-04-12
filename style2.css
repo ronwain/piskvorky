@@ -220,3 +220,17 @@ img {
 a {
   margin:1rem;
 }
+
+#pole {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+}
