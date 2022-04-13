@@ -188,12 +188,15 @@ img {
   }
 
   /*ukol 3*/
- 
+ .obrazovka {
+  max-width: 80vmin;
+ }
+
 .herniKarta {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  max-width: 80vmin;
+  
  
 }
  
@@ -212,32 +215,35 @@ img {
 
 .hra--menu__ikony {
   display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 10px;
 }
 
 #kolecko {
   width: 1rem;
   height: 1rem;
 }
-a {
-  margin:1rem;
-}
 
-#pole {
-  width: 3.5rem;
-  height: 3.5rem;
+
+.pole {
+  width: 2rem;
+  height: 2rem;
   background-color: rgba(243, 236, 236, 0.441);
+  line-height: 0;
+  max-lines: 0;
+  opacity: 0,5;
 }
 
-#pole:focus {
+button:focus {
   color: rgb(137, 9, 9);
 }
 
 .wrapper {
-  display: block;
+  display: flex;
   flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
 }
