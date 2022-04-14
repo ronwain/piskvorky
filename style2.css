@@ -9,7 +9,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;  
   box-sizing: border-box;
-  margin: 15% 30% 15% 30%; 
+  margin: 10% 10% 5% 10%; 
   min-height: 100vh;
   font-family: 'Lobster', cursive;
   font-size: small;
@@ -232,6 +232,7 @@ button {
   line-height: 0;
   max-lines: 0;
   opacity: 0,5;
+  gap:0;
 }
 
 button:hover {
@@ -242,14 +243,22 @@ button:hover {
   display: flex;
   flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
+    
     align-content: center;
     justify-content: center;
     align-items: center;
 }
 
-/*
-.obrazovka {
-  max-width: 80vmin
+.wrapper--pole {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.herniKarta {
+  max-width: 80vmin;
+  margin: 30%;
 }
 
 /*dfgdgdfg
