@@ -225,6 +225,7 @@ img {
 }
 
 
+
 button {
   width: 2rem;
   height: 2rem;
@@ -233,6 +234,7 @@ button {
   max-lines: 0;
   opacity: 0,5;
   gap:0;
+
 }
 
 button:hover {
@@ -267,4 +269,11 @@ button:hover {
 .herniKarta {
   margin: 10%;
 }
+}
+
+.board__field--circle {
+  background-image: url(podklady/2ukol/circle.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center;
+    background-size: cover;
 }
