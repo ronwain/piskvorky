@@ -27,14 +27,23 @@ btn.addEventListener("click", () => {
   alert("baf");
 });
 */
+const tlacitko = document.querySelectorAll("button");
+let player = "circle";
 
-console.log("funguje");
-
-const zmenaTlacitka = (event) => {
-  event.target.classList.add("board__field--circle");
-};
-
-const btn = document.querySelectorAll("button");
-for (let i = 0; i < btn.length; i += 1) {
-  btn[i].addEventListener("click", zmenaTlacitka);
-}
+tlacitko.forEach((btn) =>
+  btn.addEventListener("click", (event) => {
+    if (player == "circle") {
+      event.target.className = "board__field--circle";
+      btn.disabled = true;
+      player = "cross";
+      document.querySelector("#hraje").innerHTML =
+        'HRAJE: <img id="kolecko" src="podklady/2ukol/cross.svg" >';
+    } else {
+      event.target.className = "board__field--cross";
+      btn.disabled = true;
+      player = "circle";
+      document.querySelector("#hraje").innerHTML =
+        'HRAJE: <img id="kolecko" src="podklady/2ukol/circle.svg" "/>';
+    }
+  })
+);
