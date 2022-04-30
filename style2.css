@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
   color: white;
+  margin: 0%;
 }
 
 body {
@@ -9,10 +10,13 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;  
   box-sizing: border-box;
-  margin: 10% 10% 5% 10%; 
-  min-height: 100vh;
+  margin: auto; 
+  max-width: 80vmin;
   font-family: 'Lobster', cursive;
   font-size: small;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 h1 {
@@ -180,7 +184,7 @@ img {
    /* obrazovka large*/
   @media (min-width: 992px) {
   .pravidla--body {
-  margin: 100px;
+  margin: 50px;
   }
   * {
     font-size: x-large;
@@ -260,7 +264,7 @@ button:hover {
 
 .herniKarta {
   max-width: 80vmin;
-  margin: 30%;
+  margin: 3% 25% 3% 25%;
 }
 
 

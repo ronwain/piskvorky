@@ -47,3 +47,20 @@ tlacitko.forEach((btn) =>
     }
   })
 );
+
+const getSymbol = (field) => {
+  // Název třídy přizpůsob tvému kódu.
+  if (field.classList.contains("board__field--cross")) {
+    return "cross";
+  } else if (field.classList.contains("board__field--circle")) {
+    return "circle";
+  }
+};
+
+const boardSize = 10; // 10x10
+const fields = document.querySelectorAll(".pole"); // Selektor pozměň tak, aby odpovídal tvému kódu.
+const getField = (row, column) => {
+  return fields[row * boardSize + column];
+};
+
+console.log(fields);
