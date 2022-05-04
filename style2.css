@@ -294,7 +294,7 @@ button:hover {
 .board__field--cross:hover,
 .board__field--circle:hover {
   transform: scale(1.3);
-  background-color: rgb(190, 125, 204);
+  background-color: #8c72b2;
 }
 
 button {

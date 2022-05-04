@@ -27,6 +27,13 @@ btn.addEventListener("click", () => {
   alert("baf");
 });
 */
+const buttons = document.querySelectorAll(".pole");
+const players = ["circle", "cross"];
+const players_czech = ["kolečko", "křížek"];
+let a = 0;
+
+//
+
 const tlacitko = document.querySelectorAll("button");
 let player = "circle";
 
@@ -60,7 +67,8 @@ const getSymbol = (field) => {
 const boardSize = 10; // 10x10
 const fields = document.querySelectorAll(".pole"); // Selektor pozměň tak, aby odpovídal tvému kódu.
 const getField = (row, column) => {
-  return fields[row * boardSize + column];
+  return buttons[row * fieldSize + column];
 };
 
 console.log(fields);
+//mám očíslovaná pole, potřebuji udělat event lisener na zmačknuté tlačítko
